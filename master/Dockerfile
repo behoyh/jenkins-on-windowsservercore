@@ -1,4 +1,4 @@
-FROM openjdk:8-windowsservercore
+FROM openjdk:13-jdk-nanoserver
 
 MAINTAINER Alex Smagin
 
