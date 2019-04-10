@@ -3,14 +3,14 @@ FROM openjdk:13-jdk-nanoserver
 MAINTAINER Alex Smagin
 
 # Jenkins defaults (use --build-arg to override)
-ARG JENKINS_VERSION=2.46.1
+ARG JENKINS_VERSION=2.164.2
 ARG JENKINS_UC=https://updates.jenkins.io
 
 # Jenkins setup
 ENV JENKINS_HOME=c:/jenkins
 
 #Git defaults (use --build-arg to override)
-ARG GIT_VERSION=2.164.2
+ARG GIT_VERSION=2.17.1
 
 # Promote arg to env
 ENV JENKINS_UC=${JENKINS_UC}
