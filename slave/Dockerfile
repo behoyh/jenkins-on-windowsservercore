@@ -10,7 +10,7 @@ ARG JENKINS_UC=https://updates.jenkins.io
 ENV JENKINS_HOME=c:/jenkins
 
 #Git defaults (use --build-arg to override)
-ARG GIT_VERSION=2.12.2
+ARG GIT_VERSION=2.164.2
 
 # Promote arg to env
 ENV JENKINS_UC=${JENKINS_UC}
